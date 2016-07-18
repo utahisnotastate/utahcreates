@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+    <head>
+       <link href='https://fonts.googleapis.com/css?family=Crete+Round' rel='stylesheet' type='text/css'>
+<title>Utah Creates</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body ng-app="TabsApp">
+
+<!-- Row 1 Begins-->
+<div class="w3-display-container">
+<div class="w3-image w3-animate-opacity">
+  <img src="images/image1.jpg">
+</div>
+</div>
+<!-- Row 1 EndsEnds -->
+
+<!-- Row 2 Begins-->
+<div id="row1" class="w3-row">
+    <div class="w3-col s12"><h1 class="w3-center">Utah Creates:</h1>
+        
+    </div>
+    
+</div>
+<!-- Row 2 Ends -->
+
+<!-- Row 3 Begins-->
+
+
+ <div id="row2" class="w3-row-padding" >
+
+  <button onclick="myFunction('apps')" class="w3-btn-block w3-card utah-app">
+    Apps
+  </button>
+  <div id="apps" class="w3-accordion-content w3-container">
+    <div class="w3-col s12 l6">
+        <ul class="w3-ul w3-card w3-border">
+            <li class="header"><h4>Project Name: Crisis Negotiator<h4></li>
+            <li>Current Status: Alpha Build, Beta soon!</li>
+            <li>Project Description: Multiplatform mobile game inspired by <a href="http://3mingames.com/2015/04/lifeline/">Lifeline</a></li>
+            <li>Programming Language Used: AngularJS</li>
+            </ul>
+        
+    </div>
+      <div class="w3-col s12 l6">
+        <ul class="w3-ul w3-card w3-border">
+            <li class="header"><h4>Project Name: MySquad<h4></li>
+            <li>Current Status: Design Phase. Develop Soon.</li>
+            <li>Project Description: "Private" Social Media</li>
+            <li>Programming Language(s) Used: MEAN Stack</li>
+            </ul>
+        
+    </div>
+  </div>
+  
+    <button onclick="myFunction('content')" class="w3-btn-block w3-card utah-content">
+   Content
+  </button>
+  <div id="content" class="w3-accordion-content w3-container">
+    <p>Currently working on: AngularJS 2.0 and Typescript for newbies</p>
+    <p>Please contact for ghostwriting samples.</p>
+    
+  </div>
+  
+    <button onclick="myFunction('websites')" class="w3-btn-block w3-card utah-websites">
+    Websites
+  </button>
+  
+ <div id="websites" class="w3-accordion-content w3-container">
+   <div class="w3-col s12 l6">
+        <ul class="w3-ul w3-border">
+            <li class="header"><h4>Website Name: Grand Approach Door Company<h4></li>
+            <li>Current Status: Development Phase. Currently: Tweaking front end style and design</li>
+            <li>Project Description: Website for local design firm.</li>
+            <li>Programming Language(s) Used: AngularJS/W3.CSS</li>
+            </ul>
+        
+    </div>
+    <div class="w3-col s12 l6">
+        <ul class="w3-ul w3-border">
+            <li class="header"><h4>Website Name: Glatter Fitness<h4></li>
+            <li>Current Status: Design Phase.</li>
+            <li>Project Description: Website for local personal training studio.</li>
+            <li>Programming Language(s) Used: AngularJS/W3.CSS</li>
+            </ul>
+        
+    </div>
+    <div class="w3-col s12 l6">
+        <ul class="w3-ul w3-border">
+           <li class="header"><h4>Website Name: EVA Ehi<h4></li>
+            <li>Current Status: Build Complete. Currently: Tweaking front end style and design.</li>
+            <li>Project Description: Website for my EMR/EHR software project.</li>
+            <li>Programming Language(s) Used: AngularJS/W3.CSS</li>
+            </ul>
+        
+    </div>
+  </div>
+  
+  <button onclick="myFunction('software')" class="w3-btn-block w3-card utah-software">
+   Software
+  </button>
+  
+ <div id="software" class="w3-accordion-content w3-container">
+    <div class="w3-col s12 l6">
+        <ul class="w3-ul w3-border">
+            <li class="header"><h4>Project Name: EVA EMR<h4></li>
+            <li>Current Status: Design Complete, Alpha build imminent.</li>
+            <li>Project Description: Multiplatform EMR/EHR. </li>
+            <li>Programming Language(s) Used: Clojure/ClojureScript/React.js</li>
+            </ul>
+        
+    </div>
+  </div>
+
+</div>
+  
+  
+    
+
+
+<!-- Row 3 Ends -->
+
+<!-- Selection Begins-->
+
+<!-- Selection Ends -->
+
+
+<!-- Footer Begins-->
+<div id="footer" class="w3-row">
+    <div class="w3-col s12 w3-card">
+        <h4 class="w3-center">Utahcreates.com 2016</h4>
+        </div>
+    
+    </div>
+<script>
+function myFunction(id) {
+    var x = document.getElementById(id);
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else { 
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+</script>
+
+</body>
+</html>

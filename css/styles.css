@@ -1,0 +1,114 @@
+.utah-app {
+  color: #fff !important;
+  background-color: #6A7FB3;
+}
+
+.utah-content {
+  color: #fff !important;
+  background-color: #576892;
+}
+
+.utah-websites {
+  background-color: #1A326F;
+}
+
+.utah-software {
+  color: #fff !important;
+  background-color: #091F55;
+}
+
+#footer .w3-card {
+  background-color: #091F55;
+}
+
+#footer h4 {
+  color: #6A7FB3;
+  text-shadow: 2px 2px black;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+body, html {
+  background-color: white;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+img {
+  width: 100%;
+  max-height: 500px;
+}
+
+#row1 .w3-col {
+  background: linear-gradient(to bottom, white, #6A7FB3);
+  border: 2px solid black;
+}
+
+#row1 h1 {
+  color: #6A7FB3;
+  text-shadow: 2px 2px black;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#row2 .w3-container.w3-quarter .w3-card {
+  background-color: #6A7FB3;
+}
+
+#row2 .w3-container.w3-quarter h2 {
+  text-align: center;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#apps .w3-ul {
+  background-color: white;
+}
+
+#apps .w3-ul .header {
+  background-color: #6A7FB3;
+}
+
+#apps .w3-ul .header h4 {
+  color: white;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#content {
+  background-color: white;
+}
+
+#content .w3-ul {
+  background-color: #fdd9d6;
+}
+
+#content .w3-ul .header {
+  background-color: #f44336;
+}
+
+#content .w3-ul .header h4 {
+  color: white;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#websites .w3-ul {
+  background-color: white;
+}
+
+#websites .w3-ul .header {
+  background-color: #1A326F;
+}
+
+#websites .w3-ul .header h4 {
+  color: white;
+  font-family: "Gloria Hallelujah", cursive;
+}
+
+#software .w3-ul {
+  background-color: white;
+}
+
+#software .w3-ul .header {
+  background-color: #091F55;
+}
+
+#software .w3-ul .header h4 {
+  color: white;
+  font-family: "Gloria Hallelujah", cursive;
+}

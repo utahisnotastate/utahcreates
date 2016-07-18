@@ -1,0 +1,130 @@
+$font: 'Gloria Hallelujah', cursive;
+	// Main Primary color */
+
+
+	// Main Secondary color (1) */
+$mainsecondary1: #6A7FB3;
+$mainsecondary2: #576892;
+$mainsecondary0: #2851B7;
+$mainsecondary3: #1A326F;
+$mainsecondary4: #091F55;
+
+.utah-app {
+    color:#fff !important;
+    background-color: $mainsecondary1;
+    
+}
+.utah-content {
+    color:#fff !important;
+    background-color: $mainsecondary2;
+    
+}
+.utah-websites {
+    background-color: $mainsecondary3;
+    
+}
+.utah-software {
+    color:#fff !important;
+    background-color: $mainsecondary4;
+    
+}
+
+
+#footer {
+    .w3-card {
+        background-color: $mainsecondary4;
+    }
+    
+    h4 {
+      color: $mainsecondary1;
+        text-shadow: 2px 2px black;
+        font-family: $font;
+}
+    }
+
+body, html {
+    background-color: white;
+    font-family: $font;
+}
+img {
+    width: 100%;
+    max-height: 500px;
+}
+#row1 {
+    .w3-col {
+        background: linear-gradient(to bottom, white, $mainsecondary1);
+        border:2px solid black;
+    }
+    h1 {
+        color: $mainsecondary1;
+        text-shadow: 2px 2px black;
+        font-family: $font;
+    }
+}
+#row2 {
+    .w3-container.w3-quarter {
+        .w3-card{
+        background-color: $mainsecondary1;
+        }
+        h2 {
+             text-align: center;
+             font-family: $font;
+        }
+    }
+}
+#apps {
+    .w3-ul {
+        background-color:white;
+        .header {
+            background-color:$mainsecondary1;
+            h4 {
+                color:white;
+                font-family: $font;
+            }
+        }
+    }
+}
+#content {
+    background-color: white;
+    .w3-ul {
+        background-color:#fdd9d6;
+        .header {
+            background-color:#f44336;
+            h4 {
+                color:white;
+                font-family: $font;
+            }
+        }
+    }
+    
+}
+#websites {
+    .w3-ul {
+        background-color: white;
+        .header {
+            background-color: $mainsecondary3;
+            h4 {
+                color:white;
+                font-family: $font;
+            }
+        }
+    }
+    
+}
+
+#software {
+    .w3-ul {
+        background-color: white;
+        .header {
+           background-color: $mainsecondary4;
+            h4 {
+                color:white;
+                font-family: $font;
+            }
+        }
+    }
+    
+}
+
+
+
